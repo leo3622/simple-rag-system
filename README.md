@@ -28,8 +28,8 @@ The project loads PDFs from `data/raw`, splits them into chunks, creates embeddi
 │   ├── generator.py      # RAG prompt and answer generation
 │   ├── llm.py            # Ollama model client
 │   └── schemas.py        # Shared data models
-├── data/raw/             # Local PDFs, ignored by git
-├── qdrant_storage/       # Local Qdrant data, ignored by git
+├── data/raw/             # Local PDFs
+├── qdrant_storage/       # Local Qdrant data
 ├── docker-compose.yml
 ├── Dockerfile
 └── requirements.txt
